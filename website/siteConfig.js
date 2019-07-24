@@ -27,8 +27,8 @@ const users = [
 const siteConfig = {
   title: 'kintone UI Component', // Title for your website.
   tagline: 'Documentation for kintone UI Component',
-  url: 'https://phongnhat19.github.io/kuc-doc', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://phongnhat19.github.io', // Your website URL
+  baseUrl: '/kuc-doc/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -109,11 +109,11 @@ const siteConfig = {
   ],
   scripts: [
     'https://unpkg.com/@kintone/kintone-ui-component@0.3.3/dist/kintone-ui-component.min.js',
-    '/js/extra.js'
+    '/kuc-doc/js/extra.js'
   ],
   stylesheets: [
     'https://unpkg.com/@kintone/kintone-ui-component@0.3.3/dist/kintone-ui-component.min.css',
-    '/css/custom.css'
+    '/kuc-doc/css/custom.css'
   ]
 };
 

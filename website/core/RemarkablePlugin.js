@@ -1,10 +1,13 @@
 const renderToPlaceHolder = (divID, code) => {
   return `
     <script id="${divID}-script">
-      eval("${code.replace(/\n/g,'')}")
-      document.getElementById('${divID}').append(component.render())
-      var currentTag = document.getElementById("${divID}-script")
-      currentTag.parentNode.removeChild(currentTag)
+      (function() {
+        eval("${code.replace(/\n/g,'')}")
+        document.getElementById('${divID}').append(component.render())
+        var currentTag = document.getElementById("${divID}-script")
+        currentTag.parentNode.removeChild(currentTag)
+      })()
+      
     </script>
   `;
 }
@@ -17,7 +20,6 @@ const KUCComponentRenderer = (md) => {
     env,
     self
   ) {
-    
     try {
       let param = JSON.parse(tokens[idx].params.split(' ')[1])
       return `<div class='kuc-preview' id=${param.id}></div>${renderToPlaceHolder(param.id, tokens[idx].content)}`

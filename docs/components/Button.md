@@ -141,8 +141,8 @@ export default class Plugin extends React.Component {
 var component = new kintoneUIComponent.Button({
     text: 'Click me to set text',
     type: 'submit',
-    onClick: function() {
-        component.setText('New text')
+    onClick: function(){
+        component.setText('New Text')
     }
 });
 ```
