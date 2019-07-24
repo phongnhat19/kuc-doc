@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://phongnhat19.github.io/kuc-doc/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/en/help" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/en/index" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/en/users" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/versions</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/en/versions" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/blog/2017/10/24/new-version-1.0.0</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/docs/next/api-reference</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/docs/next/api-reference" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/docs/next/components/button</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/docs/next/components/button" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/docs/next/getting-started</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/docs/next/getting-started" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/docs/api-reference</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/docs/api-reference" /> </url>
+<url> <loc>https://phongnhat19.github.io/kuc-doc/docs/getting-started</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://phongnhat19.github.io/kuc-doc/docs/getting-started" /> </url>
+</urlset>
