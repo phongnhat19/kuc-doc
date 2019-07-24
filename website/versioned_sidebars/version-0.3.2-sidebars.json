@@ -1,0 +1,6 @@
+{
+  "version-0.3.2-docs": {
+    "Developer Guide": ["version-0.3.2-getting-started"],
+    "API Reference": ["version-0.3.2-api-reference"]
+  }
+}
