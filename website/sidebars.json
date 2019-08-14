@@ -1,6 +1,6 @@
 {
   "docs": {
     "Developer Guide": ["getting-started"],
-    "API Reference": ["components/button"]
+    "API Reference": ["components/button", "components/label"]
   }
 }

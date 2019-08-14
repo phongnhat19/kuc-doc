@@ -5,3 +5,4 @@ sidebar_label: API Reference
 ---
 
 [Button](./components/button)
+[Label]('./components/label)
