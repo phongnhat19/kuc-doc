@@ -12,3 +12,5 @@ Update ``url`` and ``baseURL``. Usually:
 cd website
 npm run version YOUR_NEW_VERSION
 ```
+
+## 3.Push to git
