@@ -1,6 +1,26 @@
 {
   "docs": {
     "Developer Guide": ["getting-started"],
-    "API Reference": ["components/button", "components/label"]
+    "API Reference": [
+      "components/alert",
+      "components/attachment",
+      "components/button", 
+      "components/checkbox",
+      "components/colorpicker",
+      "components/datetime",
+      "components/dialog",
+      "components/dropdown",
+      "components/fieldgroup",
+      "components/iconbutton",
+      "components/label",
+      "components/multiplechoice",
+      "components/notifypopup",
+      "components/radiobutton",
+      "components/spinner",
+      "components/table",
+      "components/tabs",
+      "components/text",
+      "components/textarea"
+    ]
   }
 }

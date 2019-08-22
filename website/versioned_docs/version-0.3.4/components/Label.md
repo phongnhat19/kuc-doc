@@ -1,7 +1,8 @@
 ---
-id: label
+id: version-0.3.4-label
 title: Label
 sidebar_label: Label
+original_id: label
 ---
 
 ## Constructor

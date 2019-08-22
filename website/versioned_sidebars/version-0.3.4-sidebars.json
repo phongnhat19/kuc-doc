@@ -1,0 +1,28 @@
+{
+  "version-0.3.4-docs": {
+    "Developer Guide": [
+      "version-0.3.4-getting-started"
+    ],
+    "API Reference": [
+      "version-0.3.4-components/alert",
+      "version-0.3.4-components/attachment",
+      "version-0.3.4-components/button",
+      "version-0.3.4-components/checkbox",
+      "version-0.3.4-components/colorpicker",
+      "version-0.3.4-components/datetime",
+      "version-0.3.4-components/dialog",
+      "version-0.3.4-components/dropdown",
+      "version-0.3.4-components/fieldgroup",
+      "version-0.3.4-components/iconbutton",
+      "version-0.3.4-components/label",
+      "version-0.3.4-components/multiplechoice",
+      "version-0.3.4-components/notifypopup",
+      "version-0.3.4-components/radiobutton",
+      "version-0.3.4-components/spinner",
+      "version-0.3.4-components/table",
+      "version-0.3.4-components/tabs",
+      "version-0.3.4-components/text",
+      "version-0.3.4-components/textarea"
+    ]
+  }
+}

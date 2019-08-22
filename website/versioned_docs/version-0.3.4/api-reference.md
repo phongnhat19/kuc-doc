@@ -1,7 +1,8 @@
 ---
-id: api-reference
+id: version-0.3.4-api-reference
 title: API Reference
 sidebar_label: API Reference
+original_id: api-reference
 ---
 
 [Alert](./components/alert)
