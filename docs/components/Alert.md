@@ -78,6 +78,13 @@ export default class Plugin extends React.Component {
 ```
 </details>
 
+```KUCComponentRenderer {"id":"alert_render"}
+var component = new kintoneUIComponent.Alert({
+    text: 'Network error', 
+    type: 'error'
+});
+```
+
 ### setText()
 Set the content of alert.
 
@@ -120,6 +127,16 @@ export default class Plugin extends React.Component {
 ```
 </details>
 
+```KUCComponentRenderer {"id":"alert_set_text"}
+var component = new kintoneUIComponent.Alert({
+    text: 'Click me to set new text', 
+    type: 'error'
+});
+component.on('click', function(event) {
+    component.setText('New text');
+});
+```
+
 ### setType(type)
 Set the type of alert.
 
@@ -161,6 +178,17 @@ export default class Plugin extends React.Component {
 }
 ```
 </details>
+
+```KUCComponentRenderer {"id":"alert_set_type"}
+var component = new kintoneUIComponent.Alert({
+    text: 'Click me to set new type', 
+    type: 'error'
+});
+component.on('click', function(event) {
+    component.setText('New type');
+    component.setType('success');
+});
+```
 
 ### on(eventName, callBack)
 The callBack function will be execute after user click the alert.
@@ -216,6 +244,16 @@ export default class Plugin extends React.Component {
 ```
 </details>
 
+```KUCComponentRenderer {"id":"alert_on"}
+var component = new kintoneUIComponent.Alert({
+    text: 'Click me', 
+    type: 'error'
+});
+component.on('click', function(event) {
+    alert('Hello from KUC')
+});
+```
+
 ### show()
 Display the Alert.
 
@@ -234,7 +272,8 @@ None
 ```javascript sandbox_kuc-alert-js-show-ujbzf
 var alert = new kintoneUIComponent.Alert({
     text: 'Network error', 
-    type: 'error'
+    type: 'error',
+    isVisible: false
 });
 var body = document.getElementsByTagName("BODY")[0];
 body.appendChild(alert.render());
@@ -255,6 +294,24 @@ export default class Plugin extends React.Component {
 }
 ```
 </details>
+
+```KUCComponentRenderer {"id":"alert_show"}
+var component = new kintoneUIComponent.Alert({
+    text: 'I was shown manually.', 
+    type: 'error',
+    isVisible: false
+}); 
+var myBtn = new kintoneUIComponent.Button({
+    text: 'Click me to show alert',
+    onClick: function() {
+        component.show();
+    },
+    type: 'submit'
+}); 
+var kucContainer = document.createElement('div');
+kucContainer.appendChild(component.render());
+kucContainer.appendChild(myBtn.render());
+```
 
 ### hide()
 Hide the Alert.
@@ -296,6 +353,23 @@ export default class Plugin extends React.Component {
 ```
 </details>
 
+```KUCComponentRenderer {"id":"alert_hide"}
+var component = new kintoneUIComponent.Alert({
+    text: 'I will be hidden.', 
+    type: 'error'
+}); 
+var myBtn = new kintoneUIComponent.Button({
+    text: 'Click me to hide alert',
+    onClick: function() {
+        component.hide();
+    },
+    type: 'submit'
+}); 
+var kucContainer = document.createElement('div');
+kucContainer.appendChild(component.render());
+kucContainer.appendChild(myBtn.render());
+```
+
 ### disable()
 Disable the Alert.
 
@@ -336,6 +410,14 @@ export default class Plugin extends React.Component {
 ```
 </details>
 
+```KUCComponentRenderer {"id":"alert_disable"}
+var component = new kintoneUIComponent.Alert({
+    text: 'I was disabled manually.', 
+    type: 'error'
+});
+component.disable();
+```
+
 ### enable()
 Enable the Alert.
 
@@ -375,3 +457,11 @@ export default class Plugin extends React.Component {
 }
 ```
 </details>
+
+```KUCComponentRenderer {"id":"alert_enable"}
+var component = new kintoneUIComponent.Alert({
+    text: 'I was enabled manually.', 
+    type: 'error'
+});
+component.enable();
+```

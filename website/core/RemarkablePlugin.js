@@ -3,7 +3,12 @@ const renderToPlaceHolder = (divID, code) => {
     <script id="${divID}-script">
       (function() {
         eval("${code.replace(/\n/g,'')}")
-        document.getElementById('${divID}').append(component.render())
+        if (typeof kucContainer !== 'undefined') {
+          document.getElementById('${divID}').append(kucContainer)
+        }
+        else if (typeof component !== 'undefined') {
+          document.getElementById('${divID}').append(component.render())
+        }
         var currentTag = document.getElementById("${divID}-script")
         currentTag.parentNode.removeChild(currentTag)
       })()
